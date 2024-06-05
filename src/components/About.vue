@@ -19,6 +19,8 @@
 	</div>
 </template>
 
-<script setup></script>
+<script setup>
+const data = 12
+</script>
 
 <style lang="scss" scoped></style>
