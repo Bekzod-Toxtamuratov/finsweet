@@ -5,15 +5,17 @@ const mydata = reactive([
 	{
 		title: 'Uses Client First',
 		text: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ',
+		image: '/images/Icon1.png',
 	},
 	{
 		title: 'Two Free Revision Round',
 		text: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ',
+		image: '/images/Icon3.png',
 	},
 	{
 		title: 'Template Customization',
 		text: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ',
-		image: '/images/Icon1.png',
+		image: '/images/Icon2.png',
 	},
 	{
 		title: '24/7 Support',
@@ -23,11 +25,12 @@ const mydata = reactive([
 	{
 		title: 'Quick Delivery',
 		text: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ',
-		image: '/images/Icon3.png',
+		image: '/images/Icon1.png',
 	},
 	{
 		title: 'Hands-on approach',
 		text: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ',
+		image: '/images/Icon2.png',
 	},
 ])
 </script>
@@ -50,23 +53,13 @@ const mydata = reactive([
 				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px]"
 			>
 				<div class="bg-[#FFFFFF] p-12" v-for="item in mydata" :key="item.id">
-					<div class="" v-if="item.image">
+					<div class="">
 						<div class="">
 							<img :src="item.image" alt="Feature image" class="px-5 mb-4" />
 							<p class="text-[#282938] text-2xl font-bold mb-3">
 								{{ item.title }}
 							</p>
 							<p class="text-[16px] font-normal leading-7">
-								{{ item.text }}
-							</p>
-						</div>
-					</div>
-					<div class="" v-else>
-						<div class="pt-[55px]">
-							<p class="text-[#282938] text-2xl font-bold mb-3">
-								{{ item.title }}
-							</p>
-							<p class="text-[16px] font-normal leading-7 items-center">
 								{{ item.text }}
 							</p>
 						</div>

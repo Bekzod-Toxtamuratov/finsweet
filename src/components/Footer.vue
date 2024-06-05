@@ -33,7 +33,7 @@ const myData = reactive([
 
 						<div class="">
 							<p class="text-[14px] md:text-[18px] font-bold">Call us</p>
-							<p>0927 6277 2852</p>
+							<p>+99893 089-41-82</p>
 						</div>
 					</div>
 				</div>

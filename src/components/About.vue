@@ -1,6 +1,6 @@
 <template>
-	<div class="container border border-red-500">
-		<div class="md:grid grid-cols-2 pt-[100px] pb-[126px]">
+	<div class="container">
+		<div class="md:grid grid-cols-2 pt-[200px] pb-[126px]">
 			<div>
 				<h2 class="text-[18px] font-normal mb-2">About us</h2>
 				<h2
