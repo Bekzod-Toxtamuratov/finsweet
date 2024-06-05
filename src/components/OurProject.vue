@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container pb-[128px] ">
 		<h1
 			class="text-[#282938] text-[25px] md:text-[48px] font-bold mt-[57px] mb-[64px]"
 		>

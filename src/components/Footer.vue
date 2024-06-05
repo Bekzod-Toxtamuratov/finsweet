@@ -24,7 +24,7 @@ const myData = reactive([
 						presence
 					</p>
 					<div
-						class="pl-[37px] md:flex gap-x-4 text-[#282938] bg-[#FCD980] py-1 w-[50%] md:py-6 md:w-[80%] mt-[30px] md:mt-[86px]"
+						class="pl-[37px] md:flex gap-x-4 text-[#282938] bg-[#FCD980] py-1 w-[100%] md:py-6 md:w-[80%] mt-[30px] md:mt-[86px] overflow-hidden"
 					>
 						<div class="">
 							<p class="text-[14px] md:text-[18px] font-bold">Email me at</p>

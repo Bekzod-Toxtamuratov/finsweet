@@ -33,15 +33,15 @@ const mydata = reactive([
 </script>
 
 <template>
-	<div class="bg-[#F4F6FC] mt-[128px]">
-		<div class="container pt-[128px] pb-[158px] ">
+	<div class="bg-[#F4F6FC]">
+		<div class="container pt-[128px] pb-[158px]">
 			<h1 class="text-[#282938] leading-7 text-[16px] font-medium text-center">
 				Features
 			</h1>
 
 			<div class="mt-3 mb-[42px]">
 				<h2
-					class="pl-[100px] text-[30px] md:text-[48px] font-bold leading-[64px] text-center"
+					class="max-w-[630px] mx-auto text-[30px] md:text-[48px] font-bold leading-[64px] text-center"
 				>
 					Design that solves problems, one product at a time
 				</h2>
@@ -49,26 +49,24 @@ const mydata = reactive([
 			<div
 				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px]"
 			>
-				<div class="bg-[#FFFFFF]" v-for="item in mydata" :key="item.id">
+				<div class="bg-[#FFFFFF] p-12" v-for="item in mydata" :key="item.id">
 					<div class="" v-if="item.image">
-						<div class="pt-[48px]">
+						<div class="">
 							<img :src="item.image" alt="Feature image" class="px-5 mb-4" />
-							<p class="text-[#282938] text-6 font-bold mb-3 px-9">
+							<p class="text-[#282938] text-2xl font-bold mb-3">
 								{{ item.title }}
 							</p>
-							<p class="text-[16px] font-normal leading-7 pb-12 text-center">
+							<p class="text-[16px] font-normal leading-7">
 								{{ item.text }}
 							</p>
 						</div>
 					</div>
 					<div class="" v-else>
-						<div class="pt-[108px]">
-							<p class="text-[#282938] text-6 font-bold mb-3 px-9">
+						<div class="pt-[55px]">
+							<p class="text-[#282938] text-2xl font-bold mb-3">
 								{{ item.title }}
 							</p>
-							<p
-								class="text-[14px] font-normal leading-7 items-center max-w-[300px] i pb-12 px-[20px] text-center"
-							>
+							<p class="text-[16px] font-normal leading-7 items-center">
 								{{ item.text }}
 							</p>
 						</div>

@@ -14,12 +14,12 @@
 				</div>
 				<div class="col-span-2 row-span-2">
 					<h2
-						class="text-[#282938] font-medium leading-4 md:leading-[56px] text-[20px] md:text-[36px] mb-3"
+						class="text-[#282938] mt-10 md:mt-0 font-medium md:leading-[56px] text-[20px] md:text-[36px] mb-3"
 					>
 						"The best agency we’ve worked with so far. They understand our
 						product and are able to add new features with a great focus."
 					</h2>
-					<div class="flex gap-4">
+					<div class="flex gap-4 mt-10 md:mt-0">
 						<div>
 							<img src="/images/woman.jpg" class="rounded-full" />
 						</div>
