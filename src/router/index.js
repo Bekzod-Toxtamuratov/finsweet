@@ -13,6 +13,16 @@ const router = createRouter({
 			name: 'about',
 			component: () => import('../pages/About.vue'),
 		},
+		{
+			path: '/pricing',
+			name: 'pricing',
+			component: () => import('../pages/Pricing.vue'),
+		},
+		{
+			path: '/work',
+			name: 'work',
+			component: () => import('../pages/Work.vue'),
+		},
 	],
 })
 

@@ -24,7 +24,7 @@ const myData = reactive([
 						presence
 					</p>
 					<div
-						class="pl-[37px] md:flex gap-x-4 text-[#282938] bg-[#FCD980] py-1 w-[100%] md:py-6 md:w-[80%] mt-[30px] md:mt-[86px] overflow-hidden"
+						class="pl-[25px] flex gap-x-4 text-[#282938] bg-[#FCD980] py-3 w-full md:py-6 md:w-[80%] mt-[30px] md:mt-[86px] overflow-hidden"
 					>
 						<div class="">
 							<p class="text-[14px] md:text-[18px] font-bold">Email me at</p>
@@ -39,7 +39,7 @@ const myData = reactive([
 				</div>
 				<div class="h-full">
 					<h1
-						class="text-[30px] md:text-[48px] font-bold leading-16 text-[white]"
+						class="max-md:my-8  text-[25px] md:text-[48px] font-bold leading-16 text-[white]"
 					>
 						Lets Talk!
 					</h1>
@@ -49,7 +49,7 @@ const myData = reactive([
 						We are always open to discuss your project, improve your online
 						presence and help with your UX/UI design challenges.
 					</p>
-					<div class="flex mt-[28px] gap-x-4">
+					<div class="flex mt-[28px] gap-x-[26px] max-md:gap-x-8">
 						<div v-for="(item, index) in myData" :key="index">
 							<img :src="item.img" />
 						</div>

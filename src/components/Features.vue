@@ -50,9 +50,9 @@ const mydata = reactive([
 				</h2>
 			</div>
 			<div
-				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px]"
+				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px] "
 			>
-				<div class="bg-[#FFFFFF] p-12" v-for="item in mydata" :key="item.id">
+				<div class="bg-[#FFFFFF] p-12 hover:shadow-lg duration-200" v-for="item in mydata" :key="item.id">
 					<div class="">
 						<div class="">
 							<img :src="item.image" alt="Feature image" class="px-5 mb-4" />
