@@ -50,12 +50,12 @@ const myData = ref([
 		<div class="container">
 			<div>
 				<h2
-					class="leading-[64px] text-[48px] font-bold text-center mb-[48px] pt-[128px]"
+					class="md:leading-[64px]  text-[30px]    md:text-[48px] font-bold text-center mb-[48px] md:pt-[128px]"
 				>
 					Meet our team
 				</h2>
 			</div>
-			<div class="md:grid grid-cols-4 gap-x-7 pb-[128px]">
+			<div class="md:grid grid-cols-4 gap-x-7  pb-[50px]  md:pb-[128px]">
 				<div v-for="(item, index) in myData" :key="index">
 					<div class="bg-[white] group hover::shadow py-[30px] mb-5">
 						<div
@@ -75,11 +75,11 @@ const myData = ref([
 							<img :src="item.img[3]" alt="radius" class="w-full h-full" />
 						</div>
 						<p
-							class="text-[24px] leading-[36px] font-medium mt-[30px] text-center"
+							class="text-[18px]  md:text-[24px] leading-[36px] font-medium mt-[30px] text-center"
 						>
 							{{ item.name }}
 						</p>
-						<p class="text-center">{{ item.job }}</p>
+						<p class="text-center max-md:text-[14px]">{{ item.job }}</p>
 					</div>
 				</div>
 			</div>
