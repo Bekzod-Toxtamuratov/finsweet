@@ -2,7 +2,7 @@
 	<div class="bg-[#F4F5F5]">
 		<div class="container mt-[96px] py-[96px]">
 			<div>
-				<div class="md:flex gap-x-16 px-[100px]">
+				<div class="md:flex gap-x-16 md:px-[100px]">
 					<div>
 						<h2 class="text-[25px]  md:text-[38px] md:leading-[56px] mb-[16px]">Goal focussed</h2>
 						<p class="md:leading-7 text-[16px] font-normal md:max-w-[515px]">

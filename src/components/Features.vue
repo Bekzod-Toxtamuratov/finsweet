@@ -37,14 +37,14 @@ const mydata = reactive([
 
 <template>
 	<div class="bg-[#F4F6FC]">
-		<div class="container pt-[128px] pb-[158px]">
+		<div class="container  pt-[50px] md:pt-[128px] pb-[158px]">
 			<h1 class="text-[#282938] leading-7 text-[16px] font-medium text-center">
 				Features
 			</h1>
 
 			<div class="mt-3 mb-[42px]">
 				<h2
-					class="max-w-[630px] mx-auto text-[30px] md:text-[48px] font-bold leading-[64px] text-center"
+					class="max-w-[630px] mx-auto text-[25px] md:text-[48px] font-bold md:leading-[64px] text-center"
 				>
 					Design that solves problems, one product at a time
 				</h2>

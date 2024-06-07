@@ -4,7 +4,7 @@
 			<div>
 				<h2 class="text-[18px] font-normal mb-2">About us</h2>
 				<h2
-					class="text-[30px] md:text-[54px] font-bold leading-[77px] mb-[31px]"
+					class="text-[30px] md:text-[54px] font-bold md:leading-[77px] mb-[31px]"
 				>
 					Our designs solve problems
 				</h2>
