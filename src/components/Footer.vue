@@ -2,13 +2,15 @@
 import { reactive } from 'vue'
 
 const myData = reactive([
-	{ img: '/images/facebook.png' },
-	{ img: '/images/twitter.png' },
+	{ img: '/images/facebook.png', hreff: 'https://www.facebook.com/' },
+	{ img: '/images/twitter.png', hreff: 'https://x.com/?lang=en' },
 	{
 		img: '/images/instragram.png',
+		hreff: 'https://www.instragram.com',
 	},
 	{
 		img: '/images/linkedin.png',
+		hreff: 'https://www.linkedin.com',
 	},
 ])
 </script>
@@ -39,7 +41,7 @@ const myData = reactive([
 				</div>
 				<div class="h-full">
 					<h1
-						class="max-md:my-8  text-[25px] md:text-[48px] font-bold leading-16 text-[white]"
+						class="max-md:my-8 text-[25px] md:text-[48px] font-bold leading-16 text-[white]"
 					>
 						Lets Talk!
 					</h1>

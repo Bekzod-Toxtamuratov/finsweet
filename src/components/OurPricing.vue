@@ -1,14 +1,7 @@
 <script setup>
-import {
-	FwbAccordion,
-	FwbAccordionContent,
-	FwbAccordionHeader,
-	FwbAccordionPanel,
-} from 'flowbite-vue'
 import { ref } from 'vue'
 
-
-import Accoring from "../components/Accoding.vue"
+import Accoring from '../components/Accoding.vue'
 
 const myData = ref([
 	{
@@ -82,7 +75,7 @@ const myData = ref([
 				>
 					<div class="flex gap-x-5 items-center mb-5">
 						<p
-							class="font-pop font-bold text-[38px] leading-[56px] text-[white]"
+							class="font-pop font-bold text-[38px] leading-[56px] text-[black] group-hover:text-[white]"
 						>
 							{{ item.price }}
 						</p>
@@ -125,8 +118,7 @@ const myData = ref([
 			</div>
 		</div>
 
-		<Accoring/>
-		
+		<Accoring  class="mt-[300px] mb-[400px]"  />
 	</div>
 </template>
 
