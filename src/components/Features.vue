@@ -37,7 +37,7 @@ const mydata = reactive([
 
 <template>
 	<div class="bg-[#F4F6FC]">
-		<div class="container  pt-[50px] md:pt-[128px] pb-[158px]">
+		<div class="container pt-[50px] md:pt-[128px]  pb-[10px]  md:pb-[158px]">
 			<h1 class="text-[#282938] leading-7 text-[16px] font-medium text-center">
 				Features
 			</h1>
@@ -50,9 +50,13 @@ const mydata = reactive([
 				</h2>
 			</div>
 			<div
-				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px] "
+				class="max-md:gap-y-5 max-md:flex-col max-md:flex md:grid grid-cols-3 gap-8 mb-[128px]"
 			>
-				<div class="bg-[#FFFFFF] p-12 hover:shadow-lg duration-200" v-for="item in mydata" :key="item.id">
+				<div
+					class="bg-[#FFFFFF] p-12 hover:shadow-lg duration-200"
+					v-for="item in mydata"
+					:key="item.id"
+				>
 					<div class="">
 						<div class="">
 							<img :src="item.image" alt="Feature image" class="px-5 mb-4" />
