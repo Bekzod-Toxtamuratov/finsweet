@@ -2,7 +2,7 @@
 	<div>
 		<section class="bg-[#1C1E53] py-[128px]">
 			<div class="container">
-				<div class="max-md:border max-md:flex-col md:flex gap-x-8">
+				<div class="max-md:flex-col md:flex gap-x-8">
 					<div class="">
 						<h1
 							class="mb-7 text-[25px] md:text-[54px] max-w-[350px] max-md:text-center mx-auto md:max-w-[582px] text-[white] font-bold leading-[42px] md:leading-[74px]"
@@ -18,17 +18,22 @@
 						<div
 							class="max-md:mb-[50px] flex gap-x-[55px] mt-[50px] items-center max-md:justify-center"
 						>
-							<button
-								class="max-md:ml-4 rounded-3xl sm:font-medium border border-white-500  px-4 py-2  sm:py-3 sm:px-8 md:py-4 md:px-16 bg-[#FCD980]"
-							>
-								View our work
-							</button>
-							<div class="">
-								<p
-									class="max-md:pb-2 text-3 mt-2 md:text-[14px] font-medium leading-7 text-[white]"
+							<router-link to="contact"
+								><button
+									class="max-md:ml-4 rounded-3xl sm:font-medium border border-white-500 px-4 py-2 sm:py-3 sm:px-8 md:py-4 md:px-16 bg-[#FCD980]"
 								>
-									View Pricing
-								</p>
+									View our work
+								</button></router-link
+							>
+
+							<div class="flex">
+								<router-link to="pricing">
+									<button
+										class="max-md:pb-2 text-3 mt-2 md:text-[14px] font-medium leading-7 text-[white]"
+									>
+										<img src="/images/TextButton.png" />
+									</button>
+								</router-link>
 							</div>
 						</div>
 					</div>
