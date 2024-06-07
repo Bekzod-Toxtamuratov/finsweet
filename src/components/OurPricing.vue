@@ -107,9 +107,9 @@ const myData = ref([
               </div>
             </div>
           </div>
-          <div class="mt-8 md:flex  md:justify-center">
+          <div class="mt-8">
             <button
-              class="py-3  md:py-5  px-[30px]  md:px-[60px] rounded-[41px] text-[white] bg-[#282938] group-hover:bg-[#FCD980] group-hover:text-[black]"
+              class="py-5 px-[60px] rounded-[41px] text-[white] bg-[#282938] group-hover:bg-[#FCD980] group-hover:text-[black]"
             >
               {{ item.button }}
             </button>
