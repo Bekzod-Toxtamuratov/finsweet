@@ -37,7 +37,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="flex">
+					<div class="">
 						<img
 							class="max-md:w-[60%] max-md:mx-auto"
 							src="/images/intro.png"
