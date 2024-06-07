@@ -1,7 +1,7 @@
 <template>
 	<div class="container pb-[128px]">
 		<h1
-			class="text-[#282938] text-[25px] md:text-[48px] font-bold mt-[57px] mb-[64px]"
+			class="text-[#282938] text-[25px] md:text-[48px] font-bold mt-[20px] max-md:mb-[30px]  md:mt-[57px] mb-[64px] max-md:text-center"
 		>
 			View our projects
 		</h1>
