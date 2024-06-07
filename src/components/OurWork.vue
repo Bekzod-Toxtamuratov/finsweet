@@ -19,25 +19,25 @@
 			<div class="flex gap-x-[40px] md:gap-x-[27px] justify-center">
 				<a href="https://www.facebook.com/">
 					<img
-						class="max-md:w-[30px] max-md:h-[30px] bg-cover"
+						class="max-md:w-[25px] max-md:h-[25px] bg-cover"
 						src="/images/qora.png"
 					/>
 				</a>
 				<a href="https://x.com/?lang=en">
 					<img
-						class="max-md:w-[30px] max-md:h-[30px] bg-cover"
+						class="max-md:w-[25px] max-md:h-[25px] bg-cover"
 						src="/images/qora2.png"
 					/>
 				</a>
 				<a href="https://www.instagram.com/">
 					<img
-						class="max-md:w-[30px] max-md:h-[30px] bg-cover"
+						class="max-md:w-[25px] max-md:h-[25px] bg-cover"
 						src="/images/qora4.png"
 					/>
 				</a>
 				<a href="https://uz.linkedin.com/">
 					<img
-						class="max-md:w-[30px] max-md:h-[30px] bg-cover"
+						class="max-md:w-[25px] max-md:h-[25px] bg-cover"
 						src="/images/qora5.png"
 					/>
 				</a>
