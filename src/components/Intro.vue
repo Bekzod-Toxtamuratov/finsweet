@@ -20,7 +20,7 @@
 						>
 							<router-link to="contact"
 								><button
-									class="max-md:ml-4 rounded-3xl sm:font-medium border border-white-500 px-4 py-2 sm:py-3 sm:px-8 md:py-4 md:px-16 bg-[#FCD980]"
+									class="max-md:ml-4 rounded-3xl sm:font-medium border border-white-500 px-2 py-2 sm:py-3 sm:px-8 md:py-4 md:px-16 bg-[#FCD980]"
 								>
 									View our work
 								</button></router-link
