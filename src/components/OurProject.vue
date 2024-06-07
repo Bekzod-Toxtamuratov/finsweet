@@ -6,7 +6,7 @@
 			View our projects
 		</h1>
 
-		<div class="grid md:grid-cols-3 gap-5">
+		<div class="md:grid md:grid-cols-3 gap-5  ">
 			<div class="col-span-2 row-span-2 relative group overflow-hidden">
 				<div
 					class="w-[50%] h-full group-hover:left-0 duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53]"
