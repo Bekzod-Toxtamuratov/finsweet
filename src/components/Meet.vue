@@ -62,7 +62,7 @@ const myData = ref([
 							class="relative w-[168px] h-[168px] mx-auto rounded-full overflow-hidden"
 						>
 							<div
-								class="absolute left-0 -bottom-full duration-300 group-hover:bottom-0 w-full h-full bg-slate-900/70"
+								class="absolute left-0 -bottom-full duration-300 group-hover:bottom-0 w-full h-full bg-gradient-to-r from-customBlue to-customBlue"
 							>
 								<div class="flex h-full justify-center items-end">
 									<div class="flex gap-3 pb-5">

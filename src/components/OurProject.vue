@@ -1,15 +1,13 @@
 <template>
-	<div class="container pb-[0px] md:pb-[128px]">
+	<div class="container pb-[128px]">
 		<h1
-			class="text-[#282938] text-[23px] md:text-[48px] font-bold mt-[10px] md:mt-[57px] mb-[30px] md:mb-[64px]"
+			class="text-[#282938] text-[25px] md:text-[48px] font-bold mt-[57px] mb-[64px]"
 		>
 			View our projects
 		</h1>
 
-		<div
-			class="md:grid md:grid-cols-3 gap-5 max-md:grid max-md:gap-y-6 border border-red-500"
-		>
-			<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden">
+		<div class="md:grid md:grid-cols-3 gap-5">
+			<div class="col-span-2 row-span-2 relative group overflow-hidden">
 				<div
 					class="w-[50%] h-full group-hover:left-0 duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53]"
 				>

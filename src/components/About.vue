@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<div class="md:grid grid-cols-2  pt-[150px]  md:pt-[200px]    md:pb-[126px]">
+		<div class="md:grid grid-cols-2  pt-[100px]  md:pt-[200px]    md:pb-[126px]">
 			<div>
 				<h2 class="text-[18px] font-normal mb-2">About us</h2>
 				<h2
@@ -22,7 +22,6 @@
 </template>
 
 <script setup>
-const data = 12
 </script>
 
 <style lang="scss" scoped></style>

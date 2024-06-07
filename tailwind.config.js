@@ -17,6 +17,9 @@ export default {
 					pop: ['Poppins', 'sans-serif'], // Make sure to include a fallback font
 				},
 			},
+			colors: {
+				customBlue: '#5239FA',
+			},
 		},
 	},
 	plugins: [require('flowbite/plugin')],
